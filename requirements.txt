@@ -1,4 +1,4 @@
-azure-cognitiveservices-speech
+azure-cognitiveservices-speech==1.40.0
+openai==1.33.0
 python-dotenv
-openai
 pillow
