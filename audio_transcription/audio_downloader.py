@@ -12,7 +12,7 @@ class YouTubeAudioDownloader:
         stream = yt.streams.filter(only_audio=True).first()
         audio_file = stream.download(filename=self.output_path)
 
-        print(f'Áudio salvo em: {self.output_path}')
+        print(f'The audio file is ready: {self.output_path}')
 
 if __name__ == "__main__":
     url = 'https://www.youtube.com/watch?v=zbFAl1qUqzY'
